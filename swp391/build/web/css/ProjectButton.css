@@ -1,0 +1,49 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jun 30, 2022, 11:37:23 PM
+    Author     : phamquang
+*/
+.search-empty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search-empty-icon {
+    width: 12rem;
+}
+
+.search-empty-title {
+    margin: 1.125rem 0 1rem;
+    color: rgba(0,0,0,.87);
+    font-size: 1.875rem;
+}
+
+.search-empty-hint {
+    font-size: 1.875rem;
+    color: rgba(0,0,0,.54);
+}
+.btnControl{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project-button {
+    background: #FDA92D;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 5px;
+    color: black;
+    font-weight: 700;
+    border: none;
+    transition: 0.2s;
+}
+
+.project-button:hover {
+    background: #B66816;
+}

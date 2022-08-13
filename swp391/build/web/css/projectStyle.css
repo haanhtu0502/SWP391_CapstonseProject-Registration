@@ -1,0 +1,30 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jun 20, 2022, 12:33:12 PM
+    Author     : phamquang
+*/
+
+.search-empty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search-empty-icon {
+    width: 12rem;
+}
+
+.search-empty-title {
+    margin: 1.125rem 0 1rem;
+    color: rgba(0,0,0,.87);
+    font-size: 1.875rem;
+}
+
+.search-empty-hint {
+    font-size: 1.875rem;
+    color: rgba(0,0,0,.54);
+}

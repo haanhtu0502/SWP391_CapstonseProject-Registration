@@ -1,0 +1,154 @@
+#team {
+    margin-top: 3rem;
+}
+
+.team__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+.teamDetail-body{
+    display: flex;    
+}
+
+
+.teamMember-content_header{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.teamMember-content{
+    margin-bottom: 2.5rem;
+    width: 100%;
+    height: max-content;
+    background-color: white;
+    box-shadow: rgb(145 158 171 / 24%) 0px 0px 2px 0px, 
+                rgb(145 158 171 / 24%) 0px 16px 32px;
+    border-radius: 16px;
+    padding: 16px 24px;    
+}
+.membersCount{
+    padding-top: 8px;
+}
+.teamMember-item{
+    display: flex;
+    align-items: center;
+    column-gap: 1.1rem;
+    color:  #363e49;
+    padding-bottom: 20px;
+}
+.teamInfor-content{
+    margin-bottom: 2.5rem;
+    width: 80%;
+    height: max-content;
+    background-color: white;
+    box-shadow: rgb(145 158 171 / 24%) 0px 0px 2px 0px, 
+                rgb(145 158 171 / 24%) 0px 16px 32px;
+    border-radius: 16px;
+    padding: 16px 24px;
+    margin-left: 2em;
+}
+.teamInfor-item{
+    display: flex;
+    align-items: center;
+    column-gap: 1.1rem;
+    color:  #363e49;
+    padding-bottom: 20px;
+}
+
+.teamMembers-list{    
+    display: flex;
+    justify-content: space-between
+}
+
+.tabProgram {
+    padding: 5px 8px;
+    border-radius: 10px;
+    cursor: default;
+    color: rgb(12, 83, 183);
+    background-color: rgba(24, 144, 255, 0.16);
+    font-weight: 700;
+    margin: 8px;    
+}
+
+
+.tab-leader{
+    margin: 50px;
+}
+
+.tdTbl__success {
+    background: #DCF1D7;
+    color: rgb(34, 154, 22);
+    padding: 5px 18px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.tdTbl__danger {
+    font-size: 10px;
+    padding: 4px 6px;
+    border-radius: 10px;
+    color: rgb(183, 33, 54);
+    background-color: rgba(255, 72, 66, 0.16);
+    font-weight: 700;
+}
+.tdTbl__warning {
+    background: rgba(255, 193, 7, 0.16);
+    color: rgb(183, 129, 3);
+    padding: 5px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.fa-circle-question {
+    color: rgb(160, 160, 160);
+}
+
+
+
+.team__btn {
+    background: #FDA92D;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 5px;
+    color: black;
+    font-weight: 700;
+    border: none;
+    transition: 0.2s;
+}
+
+
+.team__btn-disabled{
+    background: #FDA;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 5px;
+    color: grey;
+    font-weight: 700;
+    border: none;
+    transition: 0.2s;
+    cursor: default;
+}
+.team__btn-disabled a{
+    padding-top: 8px;
+}
+.team__btn:hover {
+    background: #B66816;
+}
+
+.quesIcon-control{
+    position: relative;    
+}
+.quesIcon{
+    position: absolute;
+    transform: translateX(500%) translateY(-100%);
+    padding-left: 4px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+hided{
+    display: none;
+}

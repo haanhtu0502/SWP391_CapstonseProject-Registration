@@ -1,0 +1,112 @@
+#team {
+    margin-top: 3rem;
+}
+
+.team__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.team__breadcrumb {
+    /* border: 1px solid red; */
+    max-width: 35%;
+    background-color: #fff;
+}
+
+.teamControl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table {
+    background-color: rgb(255, 255, 255);
+    color: rgb(33, 43, 54);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-image: none;
+    overflow: hidden;
+    box-shadow: rgb(145 158 171 / 24%) 0px 0px 2px 0px, rgb(145 158 171 / 24%) 0px 16px 32px -4px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.teamMember {
+    min-width: 45em;
+    padding: 16px;
+    margin-right: 1em;
+    z-index: 0;
+}
+
+
+
+
+.teamInfor {
+    min-width: 28em;
+    z-index: 0;
+    padding: 24px;
+}
+
+.tdControl div {
+    padding: 1rem;
+}
+
+.teamTopic {
+    text-align: center;
+    font-weight: 700;
+}
+
+.tdTbl__success {
+    background: #DCF1D7;
+    color: rgb(34, 154, 22);
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+
+.tdTbl__danger {
+    font-size: 10px;
+    padding: 4px 6px;
+    border-radius: 10px;
+    color: rgb(183, 33, 54);
+    background-color: rgba(255, 72, 66, 0.16);
+    font-weight: 700;
+}
+
+.tabProgram {
+    padding: 5px 8px;
+    border-radius: 10px;
+    cursor: default;
+    color: rgb(12, 83, 183);
+    background-color: rgba(24, 144, 255, 0.16);
+    font-weight: 700;
+    margin: 8px;
+}
+
+.fa-circle-question {
+    color: rgb(160, 160, 160);
+}
+
+.hided {
+    display: none;
+}
+
+.join i:hover p {
+    background-color: black;
+    color: #fff;
+    display: block;
+
+}
+
+.team__btn {
+    background: #FDA92D;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 5px;
+    color: black;
+    font-weight: 700;
+    border: none;
+    transition: 0.2s;
+}
+
+.team__btn:hover {
+    background: #B66816;
+}

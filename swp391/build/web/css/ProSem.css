@@ -1,0 +1,44 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jun 27, 2022, 9:54:23 AM
+    Author     : phamquang
+*/
+.dropdown2{
+    width: max-content;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 120%;
+    background-color: white;
+    border: 1px #EBEBEB solid;
+    display: none;
+    border-radius: 4px;
+}
+.dropdown2{
+    min-width: 64px;
+    padding: 0;
+
+}
+.toggle{
+    display: block;
+}
+
+.semester__item{
+    line-height: 1;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 12px 21px;
+}
+
+.semester__item:hover{
+    background-color: rgb(228, 223, 223);
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
